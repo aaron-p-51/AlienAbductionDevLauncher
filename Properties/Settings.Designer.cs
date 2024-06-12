@@ -82,17 +82,5 @@ namespace AlienAbductionDevLauncher.Properties {
                 this["PlayerMode"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool StartInVR {
-            get {
-                return ((bool)(this["StartInVR"]));
-            }
-            set {
-                this["StartInVR"] = value;
-            }
-        }
     }
 }

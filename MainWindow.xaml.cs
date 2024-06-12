@@ -45,8 +45,6 @@ namespace AlienAbductionDevLauncher
             LogCombo.SelectedIndex = Settings.Default.LogMode;
             DisplayModeCombo.SelectedIndex = Settings.Default.DisplayMode;
             PlayerModeCombo.SelectedIndex = Settings.Default.PlayerMode;
-            PlayInVRRadioButtonYes.IsChecked = Settings.Default.StartInVR;
-            PlayInVRRadioButtonNo.IsChecked = !Settings.Default.StartInVR;
         }
 
         private void SaveSettings()
@@ -56,15 +54,6 @@ namespace AlienAbductionDevLauncher
             Settings.Default.LogMode = (byte)LogCombo.SelectedIndex;
             Settings.Default.DisplayMode = (byte)DisplayModeCombo.SelectedIndex;
             Settings.Default.PlayerMode = (byte)PlayerModeCombo.SelectedIndex;
-
-            if (PlayInVRRadioButtonYes != null)
-            {
-                Settings.Default.StartInVR = PlayInVRRadioButtonYes.IsChecked.GetValueOrDefault();
-            }
-            else
-            {
-                Settings.Default.StartInVR = false;
-            }
 
             Settings.Default.Save();
         }
@@ -86,7 +75,6 @@ namespace AlienAbductionDevLauncher
             LogCombo_SelectionChanged(LogCombo, selectionChangedEventArgs);
             DisplayModeCmobo_SelectionChanged(DisplayModeCombo, selectionChangedEventArgs);
             PlayerModeCombo_SelectionChanged(PlayerModeCombo, selectionChangedEventArgs);
-            PlayInVRRadioButton_Checked(PlayInVRRadioButtonYes, selectionChangedEventArgs);
         }
 
 
@@ -218,7 +206,7 @@ namespace AlienAbductionDevLauncher
             }
             else if (selectedDisplayModeIndex == 1)
             {
-                m_CurrentLaunchConfiguration.displayMode = DisplayMode.Fullscreen;
+                m_CurrentLaunchConfiguration.displayMode = DisplayMode.Windowed;
             }
             else if (selectedDisplayModeIndex == 2)
             {
@@ -235,20 +223,17 @@ namespace AlienAbductionDevLauncher
             }
             else if (selectedPlayerModeIndex == 1)
             {
-                m_CurrentLaunchConfiguration.playerMode = PlayerMode.VRCenterHost;
+                m_CurrentLaunchConfiguration.playerMode = PlayerMode.VRClientFPS;
             }
             else if (selectedPlayerModeIndex == 2)
+            {
+                m_CurrentLaunchConfiguration.playerMode = PlayerMode.VRCenterHost;
+            }
+            else if (selectedPlayerModeIndex == 3)
             {
                 m_CurrentLaunchConfiguration.playerMode = PlayerMode.ApplicationSet;
             }
         }
-
-        private void PlayInVRRadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            bool startInVR = PlayInVRRadioButtonYes.IsChecked.GetValueOrDefault();  
-            m_CurrentLaunchConfiguration.startInVR = startInVR;
-        }
-
 
     }
 }

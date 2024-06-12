@@ -16,6 +16,7 @@ namespace AlienAbductionDevLauncher
     enum PlayerMode
     {
         VRClient,
+        VRClientFPS,
         VRCenterHost,
         ApplicationSet
     };

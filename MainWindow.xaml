@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AlienAbductionDevLauncher"
         mc:Ignorable="d"
-        Title="AlienAbductionDevLauncher" Height="260" Width="825"
+        Title="AlienAbductionDevLauncher" Height="275" Width="825"
         Closing="Window_Closing">
     <Grid Margin="10">
         <Grid.RowDefinitions>
@@ -28,12 +28,12 @@
                 </Grid.ColumnDefinitions>
 
 
-                <Label Grid.Row="0" Grid.Column="0" Content="Unreal Editor" Padding="10,5,10,5" Margin="5"/>
-                <TextBox x:Name="UnrealEditorFilePathTb" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Margin="5" />
+                <Label Grid.Row="0" Grid.Column="0" Content="Unreal Editor" Padding="10,5,10,5" Margin="5" FontSize="14"/>
+                <TextBox x:Name="UnrealEditorFilePathTb" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Margin="7" IsEnabled="False" FontSize="16">Test</TextBox>
                 <Button x:Name="BrowseUnrealEditorBtn" Grid.Row="0" Grid.Column="2" Content="Browse" Padding="20,5,20,5" Margin="5" Click="BrowseUnrealEditorBtn_Click"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Content=".uproject" Padding="10,5,10,5" Margin="5"/>
-                <TextBox x:Name="UProjectFilePathTb" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="0" Content=".uproject" Padding="10,5,10,5" Margin="5" FontSize="14"/>
+                <TextBox x:Name="UProjectFilePathTb" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" Margin="7" IsEnabled="False" FontSize="16"/>
                 <Button x:Name="BrowseUProjectBtn" Grid.Row="1" Grid.Column="2" Content="Browse" Padding="20,5,20,5" Margin="5" Click="BrowseUProjectBtn_Click"/>
 
             </Grid>
@@ -48,44 +48,39 @@
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Orientation="Horizontal" Grid.Column ="0" Margin="10">
-                    <Label Content="Log Mode:" Padding="10,5,10,5"/>
-                    <ComboBox x:Name="LogCombo" MinWidth="100" SelectionChanged="LogCombo_SelectionChanged">
-                        <ComboBoxItem>None</ComboBoxItem>
-                        <ComboBoxItem IsSelected="True">Log</ComboBoxItem>
+                <DockPanel LastChildFill="True" Grid.Column ="0" Margin="10">
+                    <Label Content="Log Mode:" Padding="10,5,10,5" FontSize="14"/>
+                    <ComboBox x:Name="LogCombo" MinWidth="80" SelectionChanged="LogCombo_SelectionChanged" FontSize="14">
+                        <ComboBoxItem IsSelected="True">None</ComboBoxItem>
+                        <ComboBoxItem>Log</ComboBoxItem>
                         <ComboBoxItem>Verbose</ComboBoxItem>
 
                     </ComboBox>
-                </StackPanel>
+                </DockPanel>
 
-                <StackPanel Orientation="Horizontal" Grid.Column ="1" Margin="10">
-                    <Label Content="Display Mode:" Padding="10,5,10,5"/>
-                    <ComboBox x:Name="DisplayModeCombo" MinWidth="100" SelectionChanged="DisplayModeCmobo_SelectionChanged">
-                        <ComboBoxItem>Fullscreen</ComboBoxItem>
-                        <ComboBoxItem IsSelected="True">Windowed</ComboBoxItem>
+                <DockPanel LastChildFill="True" Grid.Column ="1" Margin="10">
+                    <Label Content="Display Mode:" Padding="10,5,10,5" FontSize="14"/>
+                    <ComboBox x:Name="DisplayModeCombo" MinWidth="150" SelectionChanged="DisplayModeCmobo_SelectionChanged" FontSize="14">
+                        <ComboBoxItem IsSelected="True">Fullscreen</ComboBoxItem>
+                        <ComboBoxItem>Windowed</ComboBoxItem>
                         <ComboBoxItem>Borderless Window</ComboBoxItem>
 
                     </ComboBox>
-                </StackPanel>
+                </DockPanel>
 
-                <StackPanel Orientation="Horizontal" Grid.Column="2" Margin="10">
-                    <Label Content="Player Mode:" Padding="10,5,10,5"/>
-                    <ComboBox x:Name="PlayerModeCombo" MinWidth="100" SelectionChanged="PlayerModeCombo_SelectionChanged">
-                        <ComboBoxItem>VRClient</ComboBoxItem>
-                        <ComboBoxItem IsSelected="True">VRCenterHost</ComboBoxItem>
+                <DockPanel LastChildFill="True" Grid.Column="2" Margin="10">
+                    <Label Content="Player Mode:" Padding="10,5,10,5" FontSize="14"/>
+                    <ComboBox x:Name="PlayerModeCombo" MinWidth="100" SelectionChanged="PlayerModeCombo_SelectionChanged" FontSize="14">
+                        <ComboBoxItem IsSelected="True">VRClient</ComboBoxItem>
+                        <ComboBoxItem>VRClientFPS</ComboBoxItem>
+                        <ComboBoxItem>VRCenterHost</ComboBoxItem>
                         <ComboBoxItem>ApplicationSet</ComboBoxItem>
                     </ComboBox>
-
-                    <StackPanel Orientation="Horizontal">
-                        <Label Padding="10,5,10,5">Play In VR:</Label>
-                        <RadioButton x:Name="PlayInVRRadioButtonYes" GroupName="PlayInVR" VerticalAlignment="Center" Checked="PlayInVRRadioButton_Checked" Margin="0,0,10,0" >Yes</RadioButton>
-                        <RadioButton x:Name="PlayInVRRadioButtonNo" GroupName="PlayInVR" VerticalAlignment="Center" Checked="PlayInVRRadioButton_Checked">No</RadioButton>
-                    </StackPanel>
-                </StackPanel>
+                </DockPanel>
             </Grid>
         </GroupBox>
 
-        <Button x:Name="LaunchBtn" Grid.Row="2" Margin="10,5,10,5" Click="LaunchBtn_Click">Launch</Button>
+        <Button x:Name="LaunchBtn" Grid.Row="2" Margin="10,15,10,5" Click="LaunchBtn_Click" FontWeight="Bold" FontSize="14">Launch</Button>
         
     </Grid>
 </Window>
