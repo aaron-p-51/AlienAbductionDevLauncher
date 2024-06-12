@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienAbductionDevLauncher", "AlienAbductionDevLauncher.csproj", "{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3735E6B-186D-43D9-AB94-90E469A0F1CD}
+	EndGlobalSection
+EndGlobal

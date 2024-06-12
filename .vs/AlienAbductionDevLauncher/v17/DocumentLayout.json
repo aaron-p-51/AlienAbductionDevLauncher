@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Tools\\AlienAbductionDevLauncher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|G:\\Tools\\AlienAbductionDevLauncher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|g:\\tools\\alienabductiondevlauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|g:\\tools\\alienabductiondevlauncher\\launchconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|solutionrelative:launchconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|g:\\tools\\alienabductiondevlauncher\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|g:\\tools\\alienabductiondevlauncher\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|solutionrelative:types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|g:\\tools\\alienabductiondevlauncher\\alienabductiondevlauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE1B1196-7D2B-43C6-BC5E-526FE2FE94EF}|AlienAbductionDevLauncher.csproj|solutionrelative:alienabductiondevlauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 226,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "G:\\Tools\\AlienAbductionDevLauncher\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "G:\\Tools\\AlienAbductionDevLauncher\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T23:38:02.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Types.cs",
+              "DocumentMoniker": "G:\\Tools\\AlienAbductionDevLauncher\\Types.cs",
+              "RelativeDocumentMoniker": "Types.cs",
+              "ToolTip": "G:\\Tools\\AlienAbductionDevLauncher\\Types.cs",
+              "RelativeToolTip": "Types.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:53:01.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "G:\\Tools\\AlienAbductionDevLauncher\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "G:\\Tools\\AlienAbductionDevLauncher\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:06:11.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "G:\\Tools\\AlienAbductionDevLauncher\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "G:\\Tools\\AlienAbductionDevLauncher\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-06-11T22:04:59.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlienAbductionDevLauncher",
+              "DocumentMoniker": "G:\\Tools\\AlienAbductionDevLauncher\\AlienAbductionDevLauncher.csproj",
+              "RelativeDocumentMoniker": "AlienAbductionDevLauncher.csproj",
+              "ToolTip": "G:\\Tools\\AlienAbductionDevLauncher\\AlienAbductionDevLauncher.csproj",
+              "RelativeToolTip": "AlienAbductionDevLauncher.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-11T22:14:28.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5d51d786-731c-4256-bf95-6a6dd495c7d7}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LaunchConfiguration.cs",
+              "DocumentMoniker": "G:\\Tools\\AlienAbductionDevLauncher\\LaunchConfiguration.cs",
+              "RelativeDocumentMoniker": "LaunchConfiguration.cs",
+              "ToolTip": "G:\\Tools\\AlienAbductionDevLauncher\\LaunchConfiguration.cs",
+              "RelativeToolTip": "LaunchConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:51:55.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
